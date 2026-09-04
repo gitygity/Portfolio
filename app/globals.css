@@ -533,15 +533,13 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
 }
 
 .principlesGrid article {
-  padding: 34px 34px 14px 0;
-}
-
-.principlesGrid article + article {
-  padding-left: 34px;
-  border-left: 1px solid var(--line);
+  padding: 30px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .principlesGrid span {
@@ -628,12 +626,13 @@ main {
 
   .principlesGrid {
     grid-template-columns: 1fr;
+    border-left: 0;
   }
 
-  .principlesGrid article,
-  .principlesGrid article + article {
-    padding: 32px 0;
+  .principlesGrid article {
+    padding: 28px 0;
     border-left: 0;
+    border-right: 0;
     border-bottom: 1px solid var(--line);
   }
 
