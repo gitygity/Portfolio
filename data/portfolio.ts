@@ -11,7 +11,7 @@ export const profile = {
 export const experience = [
   {
     company: "FarabiTech",
-    role: "Frontend Developer",
+    role: "Frontend Engineer (Software Engineer III / L4)",
     period: "Jul 2023 — Present",
     summary:
       "Frontend engineering for financial products across investments, neobank experiences and customer-facing services.",
