@@ -528,13 +528,24 @@ main {
   line-height: 1.75;
 }
 
+.projectCard .projectOutcome {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: #495165;
+}
+
+.projectOutcome strong {
+  color: var(--ink);
+}
+
 .principles {
   padding-block: 100px;
 }
 
 .principlesGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
