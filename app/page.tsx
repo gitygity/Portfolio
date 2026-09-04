@@ -183,56 +183,56 @@ export default function Home() {
         <div className="principlesGrid">
           <article>
             <span>01</span>
-            <h3>Put the user first</h3>
+            <h3>Own the outcome</h3>
             <p>
-              If we offer a service to users, I believe it should be easy to use,
-              useful and reliable. When a user-facing problem appears, I want the
-              team to understand it and fix it quickly.
+              I take responsibility for the result, not just the task. I follow
+              work through, raise risks early and look for practical ways to
+              improve the product or the way the team works.
             </p>
           </article>
           <article>
             <span>02</span>
-            <h3>Pay attention to details</h3>
+            <h3>Build with the user in mind</h3>
             <p>
-              During development, I check different states and think about where
-              a change could break existing behavior. I prefer finding risky
-              cases before they reach production.
+              I care about whether a feature is genuinely useful, clear and
+              reliable for the user. I work closely with design and product, and
+              I treat user-facing issues as problems worth solving quickly.
             </p>
           </article>
           <article>
             <span>03</span>
-            <h3>Take ownership</h3>
+            <h3>Protect quality before release</h3>
             <p>
-              When I take responsibility for a piece of work, I try to carry it
-              through properly. If I see a team problem or a way to improve how
-              we work, I raise it and try to suggest a practical solution.
+              I pay attention to edge cases, UI states and areas where a change
+              could break existing behavior. I test risky paths during
+              development instead of leaving quality checks until the end.
             </p>
           </article>
           <article>
             <span>04</span>
-            <h3>Manage pressure with priorities</h3>
+            <h3>Prioritize when pressure is high</h3>
             <p>
-              In agile and high-pressure periods, I focus on priorities, delivery
-              risks and clear task ownership so the team has a better chance of
-              meeting deadlines without losing track of important work.
+              In fast-moving agile teams, I focus on the work that matters most,
+              make delivery risks visible and help organize tasks so deadlines
+              stay realistic and important work does not get lost.
             </p>
           </article>
           <article>
             <span>05</span>
-            <h3>Learn and share</h3>
+            <h3>Learn what the project needs</h3>
             <p>
-              If a new technology can genuinely help the project, I am willing to
-              learn it. I also enjoy sharing useful things I learn with teammates
-              so the knowledge does not stay with one person.
+              I am comfortable learning new tools and technologies when they can
+              make a real difference to the project. I also share useful
+              knowledge with teammates so the whole team benefits.
             </p>
           </article>
           <article>
             <span>06</span>
-            <h3>Work beyond the ticket</h3>
+            <h3>Communicate and improve together</h3>
             <p>
-              I do not like to think only in terms of assigned tasks. If I notice
-              a small improvement that can make development faster, clearer or
-              more reliable, I try to take initiative and move it forward.
+              I prefer solving disagreements through clear discussion and shared
+              problem-solving. I value a collaborative team environment and take
+              initiative on small improvements that make development smoother.
             </p>
           </article>
         </div>
