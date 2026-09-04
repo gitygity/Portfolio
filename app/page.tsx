@@ -46,9 +46,8 @@ export default function Home() {
           </h1>
           <p className="heroLead">
             I&apos;m {profile.name}, a frontend engineer with around seven years
-            of experience building production web applications in fintech and
-            B2B products. I focus on building interfaces that are reliable,
-            simple to use and easy for teams to maintain.
+            of experience building production web applications. My main focus is
+            React, TypeScript, product quality and reliable user experiences.
           </p>
           <div className="heroActions">
             <a className="primaryButton" href="#work">
@@ -83,16 +82,16 @@ export default function Home() {
       <section className="statement sectionShell" id="about">
         <div className="sectionLabel">01 · About</div>
         <div className="statementGrid">
-          <h2>I care about both the product and the code.</h2>
+          <h2>Frontend engineering with strong ownership and product focus.</h2>
           <div>
+            <p>{profile.intro}</p>
             <p>
-              {profile.intro}
-            </p>
-            <p>
-              I pay close attention to details while I build. I check different UI
-              states, think about what a change might break, and test risky
-              areas before I consider the work finished. I also like to share
-              useful things I learn with the team.
+              I enjoy working closely with product, design and engineering teams,
+              especially on complex areas where usability, technical quality and
+              delivery all matter. I am comfortable learning new technologies
+              when the project needs them, sharing knowledge with teammates and
+              taking initiative when I see a practical way to improve the product
+              or the team&apos;s development process.
             </p>
           </div>
         </div>
