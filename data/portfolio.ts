@@ -5,7 +5,7 @@ export const profile = {
   email: "gity.ghasemi@gmail.com",
   linkedin: "https://www.linkedin.com/in/gity-ghasemi",
   intro:
-    "I build frontend products with a strong focus on the user experience, reliability and clean implementation. I care about making services easy to use, checking details carefully and fixing issues quickly when they appear.",
+    "Frontend Engineer with around seven years of experience building and improving production web applications across fintech and B2B products. I specialize in React, TypeScript and modern frontend architecture, with hands-on experience in large-scale rewrites, design systems, automated testing and complex user flows. I care deeply about product quality and user experience, and I approach frontend work with strong ownership, attention to detail and a focus on building reliable, maintainable solutions that are genuinely useful to users.",
 };
 
 export const experience = [
