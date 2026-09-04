@@ -41,13 +41,14 @@ export default function Home() {
             Frontend engineer · open to relocation
           </p>
           <h1>
-            I build frontend products that are
-            <span className="accentText"> clear, reliable and easy to use.</span>
+            Frontend engineering for
+            <span className="accentText"> reliable, user-focused products.</span>
           </h1>
           <p className="heroLead">
-            I&apos;m {profile.name}, a frontend engineer with around seven years
-            of experience building production web applications. My main focus is
-            React, TypeScript, product quality and reliable user experiences.
+            I&apos;m {profile.name}, a frontend engineer with 7 years of
+            production experience across fintech and B2B products. I work mainly
+            with React and TypeScript, with a strong focus on maintainability,
+            product quality and user experience.
           </p>
           <div className="heroActions">
             <a className="primaryButton" href="#work">
@@ -63,7 +64,7 @@ export default function Home() {
             </span>
             <span>
               <Sparkles size={16} aria-hidden="true" /> React · TypeScript ·
-              Next.js · Vue
+              Vue · Testing
             </span>
           </div>
         </div>
@@ -74,7 +75,7 @@ export default function Home() {
           </div>
           <div className="portraitNote">
             <span>Currently focused on</span>
-            <strong>React, product UX and maintainable frontend architecture</strong>
+            <strong>React, TypeScript, product quality and frontend architecture</strong>
           </div>
         </div>
       </section>
@@ -82,16 +83,15 @@ export default function Home() {
       <section className="statement sectionShell" id="about">
         <div className="sectionLabel">01 · About</div>
         <div className="statementGrid">
-          <h2>Frontend engineering with strong ownership and product focus.</h2>
+          <h2>Engineering that supports both the product and the team.</h2>
           <div>
             <p>{profile.intro}</p>
             <p>
-              I enjoy working closely with product, design and engineering teams,
-              especially on complex areas where usability, technical quality and
-              delivery all matter. I am comfortable learning new technologies
-              when the project needs them, sharing knowledge with teammates and
-              taking initiative when I see a practical way to improve the product
-              or the team&apos;s development process.
+              I work best in teams where frontend engineering is part of product
+              thinking, not only implementation. I like working closely with
+              design, product and engineering, and I am comfortable taking
+              initiative when I see a technical or workflow improvement that can
+              help the team deliver better work.
             </p>
           </div>
         </div>
@@ -108,11 +108,10 @@ export default function Home() {
       <section className="sectionShell" id="experience">
         <div className="sectionHeading">
           <div className="sectionLabel">02 · Experience</div>
-          <h2>Real production experience.</h2>
+          <h2>7 years of production frontend work.</h2>
           <p>
-            Experience building and improving real products, rewriting older
-            frontend code, adding tests, and working closely with design and
-            product teams.
+            Experience across product development, frontend rewrites, shared UI
+            systems, automated testing and cross-functional delivery.
           </p>
         </div>
 
@@ -150,12 +149,12 @@ export default function Home() {
       <section className="sectionShell" id="work">
         <div className="sectionHeading workHeading">
           <div>
-            <div className="sectionLabel">03 · Selected case studies</div>
-            <h2>Selected work from production projects.</h2>
+            <div className="sectionLabel">03 · Selected engineering work</div>
+            <h2>Work that shows how I solve real frontend problems.</h2>
           </div>
           <p>
-            Examples from production work: a Vue-to-React rewrite, a shared design
-            system, testing improvements and a React PWA.
+            A closer look at production work where architecture, product quality
+            and delivery all mattered.
           </p>
         </div>
 
@@ -166,6 +165,7 @@ export default function Home() {
               <p className="projectEyebrow">{project.eyebrow}</p>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+              <p className="projectOutcome"><strong>Outcome:</strong> {project.outcome}</p>
               <div className="chipRow">
                 {project.details.map((detail) => (
                   <span className="chip subtle" key={detail}>
@@ -183,56 +183,39 @@ export default function Home() {
         <div className="principlesGrid">
           <article>
             <span>01</span>
-            <h3>Own the outcome</h3>
+            <h3>Own the result</h3>
             <p>
-              I take responsibility for the result, not just the task. I follow
-              work through, raise risks early and look for practical ways to
-              improve the product or the way the team works.
+              I do not treat a ticket as finished just because the code is done.
+              I think about the final behavior, raise risks early and follow the
+              work through until it is in a good state for users and the team.
             </p>
           </article>
           <article>
             <span>02</span>
-            <h3>Build with the user in mind</h3>
+            <h3>Think about the user</h3>
             <p>
-              I care about whether a feature is genuinely useful, clear and
-              reliable for the user. I work closely with design and product, and
-              I treat user-facing issues as problems worth solving quickly.
+              I care about whether a feature is clear, useful and reliable in
+              real use. I work closely with design and product and speak up when
+              I see a user-flow problem that can be improved.
             </p>
           </article>
           <article>
             <span>03</span>
-            <h3>Protect quality before release</h3>
+            <h3>Protect quality early</h3>
             <p>
-              I pay attention to edge cases, UI states and areas where a change
-              could break existing behavior. I test risky paths during
-              development instead of leaving quality checks until the end.
+              I check edge cases, UI states and likely failure points while I
+              develop. I prefer finding regressions before release instead of
+              depending on the final testing stage to catch them.
             </p>
           </article>
           <article>
             <span>04</span>
-            <h3>Prioritize when pressure is high</h3>
+            <h3>Help the team move forward</h3>
             <p>
-              In fast-moving agile teams, I focus on the work that matters most,
-              make delivery risks visible and help organize tasks so deadlines
-              stay realistic and important work does not get lost.
-            </p>
-          </article>
-          <article>
-            <span>05</span>
-            <h3>Learn what the project needs</h3>
-            <p>
-              I am comfortable learning new tools and technologies when they can
-              make a real difference to the project. I also share useful
-              knowledge with teammates so the whole team benefits.
-            </p>
-          </article>
-          <article>
-            <span>06</span>
-            <h3>Communicate and improve together</h3>
-            <p>
-              I prefer solving disagreements through clear discussion and shared
-              problem-solving. I value a collaborative team environment and take
-              initiative on small improvements that make development smoother.
+              I communicate openly, share what I learn and take initiative on
+              practical improvements. In high-pressure periods, I focus on
+              priorities, delivery risks and clear ownership so the team can
+              keep moving without losing important work.
             </p>
           </article>
         </div>
@@ -241,9 +224,10 @@ export default function Home() {
       <section className="contact sectionShell" id="contact">
         <div>
           <div className="sectionLabel">05 · Contact</div>
-          <h2>Looking for a frontend engineer?</h2>
+          <h2>Open to frontend opportunities in Europe.</h2>
           <p>
-            I&apos;m open to frontend engineering roles and relocation opportunities.
+            I&apos;m interested in product-focused frontend roles where I can
+            contribute to both engineering quality and the user experience.
           </p>
         </div>
         <div className="contactActions">
