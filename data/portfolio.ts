@@ -5,7 +5,7 @@ export const profile = {
   email: "gity.ghasemi@gmail.com",
   linkedin: "https://www.linkedin.com/in/gity-ghasemi",
   intro:
-    "I build dependable, user-friendly frontend products with React, TypeScript and modern web architecture. My work spans fintech platforms, large-scale rewrites, design systems, testing strategy and product-focused UI improvements.",
+    "I build frontend products with a strong focus on the user experience, reliability and clean implementation. I care about making services easy to use, checking details carefully and fixing issues quickly when they appear.",
 };
 
 export const experience = [
@@ -16,11 +16,11 @@ export const experience = [
     summary:
       "Frontend engineering for financial products across investments, neobank experiences and customer-facing services.",
     highlights: [
-      "Rewrote a production Vue application in React with React Router and MUI in about two months, using AI-assisted development workflows to accelerate delivery while keeping implementation decisions reviewable and maintainable.",
-      "Worked closely with product and design to significantly improve visual consistency, usability and key user flows, while resolving frontend-side issues without introducing unnecessary backend changes.",
-      "Surfaced unresolved product and UX constraints during the redesign so they could be addressed deliberately instead of being carried into the new experience.",
-      "Improved testability in state-heavy areas by refactoring sensitive components and adding automated coverage, reducing reliance on slow manual regression cycles.",
-      "Contributed to delivery estimation, release planning, cross-team coordination, documentation and onboarding during critical phases of the product."
+      "Rewrote a production Vue application in React with React Router and MUI in about two months. I used AI-assisted development to move faster, while still reviewing the implementation carefully and keeping the code maintainable.",
+      "Worked closely with design and product to make the new version easier to use, improve the visual design and fix weak points in important user flows. We improved what we could on the frontend without creating unnecessary backend work.",
+      "While rewriting the product, I pointed out existing UX and product problems that could affect the new design, so the team could decide which ones should be fixed instead of carrying them into the new version.",
+      "Refactored sensitive, state-heavy parts of the frontend and added automated tests so we could catch problems earlier and rely less on slow manual regression testing.",
+      "Helped with delivery estimates, release planning, documentation, onboarding and day-to-day coordination when the team was working under tight deadlines."
     ],
     stack: ["React", "React Router", "TypeScript", "MUI", "Vue.js", "TanStack Query", "Testing"]
   },
@@ -58,28 +58,28 @@ export const projects = [
     title: "Vue → React Production Migration",
     eyebrow: "Production rewrite · FarabiTech",
     description:
-      "Rebuilt a production financial application from Vue to React with React Router and MUI in roughly two months, while improving visual consistency, usability and key user flows without introducing unnecessary backend changes.",
+      "Rebuilt a production financial application from Vue to React with React Router and MUI in about two months. During the rewrite, we improved the design, made key flows easier for users and fixed frontend issues without adding unnecessary backend changes.",
     details: ["React", "React Router", "TypeScript", "MUI", "Migration", "Product UX"]
   },
   {
     title: "Design System & Shared UI Architecture",
     eyebrow: "Reusable UI foundations · Espad",
     description:
-      "Developed a reusable design system with React and Svelte using atomic design principles, supported by Storybook and Playwright to improve consistency, documentation and confidence across product teams.",
+      "Built a reusable design system with React and Svelte using atomic design principles. Storybook and Playwright helped the team keep UI components consistent, documented and easier to test.",
     details: ["React", "Svelte", "Storybook", "Playwright", "Design Systems", "Atomic Design"]
   },
   {
     title: "Testing Complex Frontend Flows",
     eyebrow: "Reliability · Production quality",
     description:
-      "Improved testability in state-heavy product areas by refactoring sensitive components and expanding automated coverage, reducing dependence on slow manual regression cycles and making releases safer.",
+      "Improved difficult, state-heavy frontend areas by refactoring sensitive components and adding more automated tests. This made problems easier to catch before release and reduced repeated manual testing.",
     details: ["Unit Testing", "E2E Testing", "Cypress", "Playwright", "Refactoring", "Regression Safety"]
   },
   {
     title: "PWA Financial Product Architecture",
     eyebrow: "State-heavy frontend · CashCool",
     description:
-      "Contributed to a React PWA wallet and customer application with Redux, Cypress and an Nx monorepo structure, focusing on predictable state, reliable critical flows and maintainable shared frontend foundations.",
+      "Worked on a React PWA wallet and customer application using Redux, Cypress and Nx. The focus was on predictable state, reliable critical flows and a frontend structure that was easier to maintain.",
     details: ["React", "Redux", "PWA", "Cypress", "Nx", "Frontend Architecture"]
   }
 ];
