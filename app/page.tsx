@@ -46,9 +46,9 @@ export default function Home() {
           </h1>
           <p className="heroLead">
             I&apos;m {profile.name}, a frontend engineer with around seven years
-            of experience building production web applications across fintech
-            and B2B products. I work where engineering quality, product thinking
-            and user experience meet.
+            of experience building production web applications in fintech and
+            B2B products. I care about making products reliable, easy to use and
+            clear for the people who depend on them.
           </p>
           <div className="heroActions">
             <a className="primaryButton" href="#work">
@@ -89,10 +89,10 @@ export default function Home() {
               {profile.intro}
             </p>
             <p>
-              I&apos;m especially comfortable in complex product areas: migrations,
-              state-heavy flows, shared UI systems, automated testing and the
-              parts of a frontend where maintainability starts to matter as much
-              as visual polish.
+              I pay close attention to details while I build. I check different UI
+              states, think about where a change may break something, and test
+              risky areas before considering the work finished. I also like to
+              share useful things I learn with the rest of the team.
             </p>
           </div>
         </div>
@@ -111,8 +111,8 @@ export default function Home() {
           <div className="sectionLabel">02 · Experience</div>
           <h2>Production work, not just prototypes.</h2>
           <p>
-            A track record of modernizing interfaces, improving reliability and
-            working closely with product and design teams.
+            Experience improving real products, rewriting older frontend code,
+            adding tests and working closely with design and product teams.
           </p>
         </div>
 
@@ -154,8 +154,8 @@ export default function Home() {
             <h2>Selected frontend case studies.</h2>
           </div>
           <p>
-            Recent work spanning AI products, real-time data, server/client
-            boundaries, optimistic UI and frontend state architecture.
+            Real examples from production work: a Vue-to-React rewrite, a shared
+            design system, testing improvements and a React PWA.
           </p>
         </div>
 
@@ -183,27 +183,56 @@ export default function Home() {
         <div className="principlesGrid">
           <article>
             <span>01</span>
-            <h3>Make complexity legible</h3>
+            <h3>Put the user first</h3>
             <p>
-              I prefer clear component boundaries, explicit state ownership and
-              architecture that helps the next engineer understand the system.
+              If we offer a service to users, I believe it should be easy to use,
+              useful and reliable. When a user-facing problem appears, I want the
+              team to understand it and fix it quickly.
             </p>
           </article>
           <article>
             <span>02</span>
-            <h3>Ship with evidence</h3>
+            <h3>Pay attention to details</h3>
             <p>
-              I use testing, reviewable increments and real product feedback to
-              reduce regression risk without slowing delivery to a crawl.
+              During development, I check different states and think about where
+              a change could break existing behavior. I prefer finding risky
+              cases before they reach production.
             </p>
           </article>
           <article>
             <span>03</span>
-            <h3>Stay close to the user</h3>
+            <h3>Take ownership</h3>
             <p>
-              I collaborate closely with design and product, raise unresolved
-              UX constraints early and treat frontend details as part of the
-              product experience.
+              When I take responsibility for a piece of work, I try to carry it
+              through properly. If I see a team problem or a way to improve how
+              we work, I raise it and try to suggest a practical solution.
+            </p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Manage pressure with priorities</h3>
+            <p>
+              In agile and high-pressure periods, I focus on priorities, delivery
+              risks and clear task ownership so the team has a better chance of
+              meeting deadlines without losing track of important work.
+            </p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Learn and share</h3>
+            <p>
+              If a new technology can genuinely help the project, I am willing to
+              learn it. I also enjoy sharing useful things I learn with teammates
+              so the knowledge does not stay with one person.
+            </p>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>Work beyond the ticket</h3>
+            <p>
+              I do not like to think only in terms of assigned tasks. If I notice
+              a small improvement that can make development faster, clearer or
+              more reliable, I try to take initiative and move it forward.
             </p>
           </article>
         </div>
