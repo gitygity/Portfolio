@@ -14,7 +14,7 @@ export const experience = [
     role: "Frontend Engineer (Software Engineer III / L4)",
     period: "Jul 2023 — Present",
     summary:
-      "Frontend engineering for financial products across investments, neobank experiences and customer-facing services.",
+      "Worked on customer-facing financial products, including investment and neobank features.",
     highlights: [
       "Rewrote a production Vue application in React with React Router and MUI in about two months. I used AI-assisted development to move faster, while still reviewing the implementation carefully and keeping the code maintainable.",
       "Worked closely with design and product to make the new version easier to use, improve the visual design and fix weak points in important user flows. We improved what we could on the frontend without creating unnecessary backend work.",
@@ -29,12 +29,12 @@ export const experience = [
     role: "Frontend Developer",
     period: "Mar 2021 — Jun 2023",
     summary:
-      "Built reusable frontend foundations for B2B procurement and supply-chain products.",
+      "Built reusable frontend components and shared UI foundations for B2B procurement and supply-chain products.",
     highlights: [
-      "Developed a design system with React and Svelte using atomic design principles to improve consistency across products.",
-      "Integrated Storybook and Playwright to make UI documentation and automated verification part of the development workflow.",
-      "Built a dynamic React form generator for configurable business workflows.",
-      "Refactored Svelte micro-apps within a Single-SPA architecture to improve modularity and maintainability."
+      "Built a shared design system with React and Svelte to keep UI components consistent across products.",
+      "Added Storybook for component documentation and Playwright for automated UI testing.",
+      "Built a dynamic form generator in React for configurable business workflows.",
+      "Refactored Svelte micro-apps in a Single-SPA setup to make the code easier to maintain and extend."
     ],
     stack: ["React", "Svelte", "TypeScript", "Storybook", "Playwright", "Single-SPA"]
   },
@@ -43,11 +43,11 @@ export const experience = [
     role: "Frontend Developer",
     period: "Sep 2019 — Feb 2021",
     summary:
-      "Worked on a PWA wallet and customer application with a focus on maintainable React architecture and reliable flows.",
+      "Worked on a React PWA wallet and customer application, with a focus on reliable user flows and maintainable code.",
     highlights: [
-      "Contributed to a React PWA wallet and customer app using Redux for predictable state management.",
+      "Worked on a React PWA wallet and customer app using Redux for state management.",
       "Added Cypress end-to-end coverage for critical user journeys.",
-      "Worked with an Nx monorepo structure to streamline shared dependencies and frontend build organization."
+      "Worked in an Nx monorepo to organize shared frontend code and dependencies."
     ],
     stack: ["React", "Redux", "PWA", "Cypress", "Nx"]
   }
