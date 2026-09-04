@@ -16,7 +16,7 @@ export default function Home() {
     <main>
       <header className="siteHeader">
         <a className="brand" href="#top" aria-label="Back to top">
-          GG
+          <img src={avatarUrl} alt="" className="brandAvatar" />
         </a>
         <nav className="nav" aria-label="Primary navigation">
           <a href="#about">About</a>
@@ -41,14 +41,14 @@ export default function Home() {
             Frontend engineer · open to relocation
           </p>
           <h1>
-            I build frontend products that feel
-            <span className="accentText"> clear, fast and dependable.</span>
+            I build frontend products that are
+            <span className="accentText"> clear, reliable and easy to use.</span>
           </h1>
           <p className="heroLead">
             I&apos;m {profile.name}, a frontend engineer with around seven years
             of experience building production web applications in fintech and
-            B2B products. I care about making products reliable, easy to use and
-            clear for the people who depend on them.
+            B2B products. I focus on building interfaces that are reliable,
+            simple to use and easy for teams to maintain.
           </p>
           <div className="heroActions">
             <a className="primaryButton" href="#work">
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           <div className="portraitNote">
             <span>Currently focused on</span>
-            <strong>React ecosystems, product UX & scalable frontend architecture</strong>
+            <strong>React, product UX and maintainable frontend architecture</strong>
           </div>
         </div>
       </section>
@@ -83,16 +83,16 @@ export default function Home() {
       <section className="statement sectionShell" id="about">
         <div className="sectionLabel">01 · About</div>
         <div className="statementGrid">
-          <h2>Engineering with a product mindset.</h2>
+          <h2>I care about both the product and the code.</h2>
           <div>
             <p>
               {profile.intro}
             </p>
             <p>
               I pay close attention to details while I build. I check different UI
-              states, think about where a change may break something, and test
-              risky areas before considering the work finished. I also like to
-              share useful things I learn with the rest of the team.
+              states, think about what a change might break, and test risky
+              areas before I consider the work finished. I also like to share
+              useful things I learn with the team.
             </p>
           </div>
         </div>
@@ -109,10 +109,11 @@ export default function Home() {
       <section className="sectionShell" id="experience">
         <div className="sectionHeading">
           <div className="sectionLabel">02 · Experience</div>
-          <h2>Production work, not just prototypes.</h2>
+          <h2>Real production experience.</h2>
           <p>
-            Experience improving real products, rewriting older frontend code,
-            adding tests and working closely with design and product teams.
+            Experience building and improving real products, rewriting older
+            frontend code, adding tests, and working closely with design and
+            product teams.
           </p>
         </div>
 
@@ -151,11 +152,11 @@ export default function Home() {
         <div className="sectionHeading workHeading">
           <div>
             <div className="sectionLabel">03 · Selected case studies</div>
-            <h2>Selected frontend case studies.</h2>
+            <h2>Selected work from production projects.</h2>
           </div>
           <p>
-            Real examples from production work: a Vue-to-React rewrite, a shared
-            design system, testing improvements and a React PWA.
+            Examples from production work: a Vue-to-React rewrite, a shared design
+            system, testing improvements and a React PWA.
           </p>
         </div>
 
@@ -241,9 +242,9 @@ export default function Home() {
       <section className="contact sectionShell" id="contact">
         <div>
           <div className="sectionLabel">05 · Contact</div>
-          <h2>Building something thoughtful?</h2>
+          <h2>Looking for a frontend engineer?</h2>
           <p>
-            I&apos;m open to frontend engineering opportunities and relocation.
+            I&apos;m open to frontend engineering roles and relocation opportunities.
           </p>
         </div>
         <div className="contactActions">
