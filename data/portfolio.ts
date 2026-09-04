@@ -55,32 +55,32 @@ export const experience = [
 
 export const projects = [
   {
-    title: "AI Workspace",
-    eyebrow: "Next.js · Product architecture",
+    title: "Vue → React Production Migration",
+    eyebrow: "Production rewrite · FarabiTech",
     description:
-      "A modern AI workspace built with Next.js 16 and React 19, featuring credentials-based authentication, role-aware flows, Prisma-backed data and Zustand state.",
-    details: ["Next.js 16", "React 19", "TypeScript", "Prisma", "NextAuth", "Zustand"]
+      "Rebuilt a production financial application from Vue to React with React Router and MUI in roughly two months, while improving visual consistency, usability and key user flows without introducing unnecessary backend changes.",
+    details: ["React", "React Router", "TypeScript", "MUI", "Migration", "Product UX"]
   },
   {
-    title: "Crypto Dashboard",
-    eyebrow: "Real-time data · Next.js",
+    title: "Design System & Shared UI Architecture",
+    eyebrow: "Reusable UI foundations · Espad",
     description:
-      "A cryptocurrency dashboard with live WebSocket prices, server-side data fetching, ISR, dynamic routes, metadata generation, watchlists and favorites.",
-    details: ["Next.js", "TypeScript", "Server Actions", "ISR", "WebSocket", "Caching"]
+      "Developed a reusable design system with React and Svelte using atomic design principles, supported by Storybook and Playwright to improve consistency, documentation and confidence across product teams.",
+    details: ["React", "Svelte", "Storybook", "Playwright", "Design Systems", "Atomic Design"]
   },
   {
-    title: "AI Article Summarizer",
-    eyebrow: "AI integration · Async state",
+    title: "Testing Complex Frontend Flows",
+    eyebrow: "Reliability · Production quality",
     description:
-      "A responsive summarization experience using Next.js and TanStack Query, with API integration, local history, hydration-safe client behavior and thoughtful loading/error states.",
-    details: ["Next.js", "React", "TanStack Query", "Tailwind CSS", "API integration"]
+      "Improved testability in state-heavy product areas by refactoring sensitive components and expanding automated coverage, reducing dependence on slow manual regression cycles and making releases safer.",
+    details: ["Unit Testing", "E2E Testing", "Cypress", "Playwright", "Refactoring", "Regression Safety"]
   },
   {
-    title: "Task Manager",
-    eyebrow: "Complex UI state · Testing",
+    title: "PWA Financial Product Architecture",
+    eyebrow: "State-heavy frontend · CashCool",
     description:
-      "A React task management app with optimistic updates, Supabase integration, drag-and-drop interactions, form validation, component primitives and automated testing.",
-    details: ["React", "TypeScript", "React Query", "Zustand", "Supabase", "Vitest"]
+      "Contributed to a React PWA wallet and customer application with Redux, Cypress and an Nx monorepo structure, focusing on predictable state, reliable critical flows and maintainable shared frontend foundations.",
+    details: ["React", "Redux", "PWA", "Cypress", "Nx", "Frontend Architecture"]
   }
 ];
 
