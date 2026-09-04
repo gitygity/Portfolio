@@ -150,8 +150,8 @@ export default function Home() {
       <section className="sectionShell" id="work">
         <div className="sectionHeading workHeading">
           <div>
-            <div className="sectionLabel">03 · Selected work</div>
-            <h2>Projects that show how I think.</h2>
+            <div className="sectionLabel">03 · Selected case studies</div>
+            <h2>Selected frontend case studies.</h2>
           </div>
           <p>
             Recent work spanning AI products, real-time data, server/client
