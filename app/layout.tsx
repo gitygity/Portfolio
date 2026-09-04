@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Gity Ghasemi — Frontend Engineer",
   description:
-    "Portfolio of Gity (Monireh) Ghasemi, a frontend engineer focused on React, TypeScript, product UI and scalable frontend architecture.",
+    "Gity (Monireh) Ghasemi is a Frontend Engineer with 7 years of production experience in React, TypeScript, frontend architecture, migrations, design systems and automated testing.",
 };
 
 export default function RootLayout({
