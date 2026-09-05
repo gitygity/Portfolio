@@ -750,7 +750,7 @@ main {
 .proofStrip {
   margin-top: 34px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
@@ -758,11 +758,6 @@ main {
 .proofStrip > div {
   padding: 18px 18px 18px 0;
   min-width: 0;
-}
-
-.proofStrip > div + div {
-  padding-left: 18px;
-  border-left: 1px solid var(--line);
 }
 
 .proofStrip strong,
@@ -875,18 +870,8 @@ main {
 }
 
 @media (max-width: 960px) {
-  .proofStrip {
-    grid-template-columns: 1fr;
-  }
-
   .proofStrip > div {
     padding: 15px 0;
-  }
-
-  .proofStrip > div + div {
-    padding-left: 0;
-    border-left: 0;
-    border-top: 1px solid var(--line);
   }
 
   .educationGrid {

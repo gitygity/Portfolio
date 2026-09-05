@@ -50,7 +50,7 @@ export default function Home() {
         <div className="heroCopy">
           <p className="eyebrow">
             <span className="statusDot" />
-            Frontend Engineer · Europe remote & relocation
+            Frontend Engineer
           </p>
 
           <h1>
@@ -103,14 +103,6 @@ export default function Home() {
             <div>
               <strong>7+ years</strong>
               <span>Production frontend experience</span>
-            </div>
-            <div>
-              <strong>~2 months</strong>
-              <span>Vue → React production rewrite</span>
-            </div>
-            <div>
-              <strong>1–3 days</strong>
-              <span>States shortened via mock preview tooling</span>
             </div>
           </div>
         </div>
@@ -334,10 +326,10 @@ export default function Home() {
       <section className="contact sectionShell" id="contact">
         <div>
           <div className="sectionLabel">06 · Contact</div>
-          <h2>Open to Frontend Engineering opportunities across Europe.</h2>
+          <h2>Interested in product-focused Frontend Engineering work.</h2>
           <p>
-            I&apos;m open to remote roles, as well as positions offering visa
-            sponsorship and relocation support.
+            I&apos;m interested in roles where I can contribute to product quality,
+            frontend architecture and a reliable user experience.
           </p>
         </div>
 
@@ -360,7 +352,7 @@ export default function Home() {
 
       <footer className="footer sectionShell">
         <span>© 2026 Gity Ghasemi</span>
-        <span>Frontend Engineer · Europe remote & relocation</span>
+        <span>Frontend Engineer · React & TypeScript</span>
       </footer>
     </main>
   );

@@ -45,4 +45,4 @@ npm run build
 ---
 
 Gity (Monireh) Ghasemi  
-Frontend Engineer · Open to remote roles across Europe and relocation
+Frontend Engineer · React & TypeScript
