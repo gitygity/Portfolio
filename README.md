@@ -1,6 +1,23 @@
-# Gity Ghasemi — Portfolio
+# Gity Ghasemi — Frontend Engineering Portfolio
 
-A personal frontend engineering portfolio focused on production work, product-minded UI and modern React architecture.
+A production-focused frontend engineering portfolio highlighting real work across fintech and B2B products.
+
+## Focus
+
+- React, TypeScript and Next.js
+- Production frontend migrations
+- Complex product and business logic
+- Frontend architecture and design systems
+- Automated testing and regression prevention
+- AI-assisted development workflows
+- Product, Design, QA and Engineering collaboration
+
+## Selected case studies
+
+- Production rewrite: Vue → React
+- Multi-variant order-details architecture
+- Automated testing for state-heavy frontend flows
+- JSON-driven dynamic form system
 
 ## Stack
 
@@ -9,14 +26,6 @@ A personal frontend engineering portfolio focused on production work, product-mi
 - TypeScript
 - CSS
 - Lucide icons
-
-## Sections
-
-- About
-- Experience
-- Selected work
-- Engineering principles
-- Contact
 
 ## Local development
 
@@ -31,10 +40,9 @@ Then open http://localhost:3000.
 
 ```bash
 npm run build
-npm start
 ```
 
 ---
 
 Gity (Monireh) Ghasemi  
-Frontend Engineer · Open to relocation
+Frontend Engineer · Open to remote roles across Europe and relocation

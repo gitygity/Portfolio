@@ -744,3 +744,171 @@ main {
     animation-duration: 0.01ms !important;
   }
 }
+
+
+/* Recruiter-focused portfolio additions */
+.proofStrip {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.proofStrip > div {
+  padding: 18px 18px 18px 0;
+  min-width: 0;
+}
+
+.proofStrip > div + div {
+  padding-left: 18px;
+  border-left: 1px solid var(--line);
+}
+
+.proofStrip strong,
+.proofStrip span {
+  display: block;
+}
+
+.proofStrip strong {
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+}
+
+.proofStrip span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.45;
+}
+
+.education {
+  padding-block: 104px;
+  border-top: 1px solid var(--line);
+}
+
+.educationHeading {
+  max-width: 860px;
+}
+
+.educationGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.educationCard,
+.publicationCard {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(145deg, rgba(255,255,255,.72), rgba(255,255,255,.28)),
+    var(--surface);
+}
+
+.educationCard {
+  padding: 28px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+}
+
+.educationIcon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: var(--accent-soft);
+  color: #4d43ab;
+}
+
+.educationCard h3,
+.publicationCard h3 {
+  margin: 0;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.educationCard h3 {
+  font-size: 1.22rem;
+}
+
+.educationSchool {
+  margin: 7px 0 0 !important;
+  color: var(--ink) !important;
+  font-weight: 700;
+}
+
+.educationCard p,
+.publicationCard p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.publicationCard {
+  grid-column: 1 / -1;
+  padding: 30px;
+}
+
+.publicationCard h3 {
+  max-width: 850px;
+  font-size: clamp(1.35rem, 2.6vw, 2rem);
+}
+
+.sectionLabel.compact {
+  margin-bottom: 18px;
+}
+
+.publicationLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.publicationLink:hover {
+  opacity: 0.72;
+}
+
+@media (max-width: 960px) {
+  .proofStrip {
+    grid-template-columns: 1fr;
+  }
+
+  .proofStrip > div {
+    padding: 15px 0;
+  }
+
+  .proofStrip > div + div {
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .educationGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .publicationCard {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .education {
+    padding-block: 74px;
+  }
+
+  .educationCard,
+  .publicationCard {
+    padding: 24px;
+  }
+
+  .educationCard {
+    grid-template-columns: 1fr;
+  }
+}
